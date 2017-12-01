@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter2" target="1.5" />
-      <module name="master-spring-4.x-git" target="1.5" />
+      <module name="chapter2" target="1.8" />
+      <module name="master-spring-4.x-git" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

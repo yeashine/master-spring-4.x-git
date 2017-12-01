@@ -8,12 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * @author yangyueming
+ */
 @Service
 public class UserService {
 
     private UserDao userDao;
     private LoginLogDao loginLogDao;
-
 
     public boolean hasMatchUser(String userName, String password) {
         int matchCount = userDao.getMatchCount(userName, password);
