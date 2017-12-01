@@ -10,14 +10,36 @@
     <packaging>pom</packaging>
 
     <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <file.encoding>UTF-8</file.encoding>
+        <parent.version>1.0</parent.version>
+        <spring.version>5.0.2.RELEASE</spring.version>
+        <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
+        <mysql.version>5.1.44</mysql.version>
+        <servlet.version>3.0.1</servlet.version>
+        <aspectj.version>1.8.1</aspectj.version>
+        <commons-codec.version>1.9</commons-codec.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
+        <jetty.version>8.1.8.v20121106</jetty.version>
+        <slf4j.version>1.7.5</slf4j.version>
+        <testng.version>6.8.7</testng.version>
     </properties>
 
     <modules>
         <module>chapter2</module>
+        <module>chapter3-spring-boot</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
