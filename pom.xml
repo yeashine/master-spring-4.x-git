@@ -10,11 +10,11 @@
     <packaging>pom</packaging>
 
     <properties>
+        <parent.version>1.0</parent.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <file.encoding>UTF-8</file.encoding>
-        <parent.version>1.0</parent.version>
         <spring.version>5.0.2.RELEASE</spring.version>
         <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
         <mysql.version>5.1.44</mysql.version>
@@ -26,11 +26,20 @@
         <jetty.version>8.1.8.v20121106</jetty.version>
         <slf4j.version>1.7.5</slf4j.version>
         <testng.version>6.8.7</testng.version>
+        <aopalliance.version>1.0</aopalliance.version>
+        <aspectjweaver.version>1.6.8</aspectjweaver.version>
+        <hibernate.version>4.2.0.Final</hibernate.version>
+        <mockito.version>1.10.19</mockito.version>
+        <unitils.version>3.4.2</unitils.version>
+        <selenium.version>2.41.0</selenium.version>
+        <dbunit.version>2.5.1</dbunit.version>
+        <hamcrest.version>1.3</hamcrest.version>
     </properties>
 
     <modules>
         <module>chapter2</module>
         <module>chapter3-spring-boot</module>
+        <module>chapter18-forum</module>
     </modules>
 
     <dependencies>

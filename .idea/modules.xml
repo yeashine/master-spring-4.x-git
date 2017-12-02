@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter18-forum/chapter18-forum.iml" filepath="$PROJECT_DIR$/chapter18-forum/chapter18-forum.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter2/chapter2.iml" filepath="$PROJECT_DIR$/chapter2/chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3-spring-boot/chapter3-spring-boot.iml" filepath="$PROJECT_DIR$/chapter3-spring-boot/chapter3-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/master-spring-4.x-git.iml" filepath="$PROJECT_DIR$/master-spring-4.x-git.iml" />
