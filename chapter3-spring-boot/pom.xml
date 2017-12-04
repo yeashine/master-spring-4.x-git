@@ -11,7 +11,6 @@
     </parent>
 
     <artifactId>chapter3-spring-boot</artifactId>
-    <version>${parent.version}</version>
 
     <packaging>war</packaging>
 
